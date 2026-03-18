@@ -17,6 +17,21 @@
           }
         },
         {
+  "title": "Test Asset Block",
+  "id": "test-asset-block",
+  "plugins": {
+    "xwalk": {
+      "page": {
+        "resourceType": "core/franklin/components/block/v1/block",
+        "template": {
+          "name": "Test Asset Block",
+          "model": "test-asset-block"
+        }
+      }
+    }
+  }
+},
+        {
           "title": "Title",
           "id": "title",
           "plugins": {
