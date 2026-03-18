@@ -37,7 +37,7 @@
     },
     {
       "component": "text",
-      "name": "lightbox_image_alt",
+      "name": "lightbox_image",
       "label": "Alt text",
       "valueType": "string"
     }
