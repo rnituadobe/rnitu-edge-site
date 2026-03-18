@@ -28,7 +28,7 @@
   "fields": [
     {
       "component": "custom-asset-namespace:custom-asset",
-      "name": "lightbox_image",
+      "name": "lightbox",
       "label": "Image",
       "valueType": "string",
       "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
