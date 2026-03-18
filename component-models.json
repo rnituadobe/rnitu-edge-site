@@ -24,6 +24,26 @@
     ]
   },
   {
+  "id": "test-asset-block",
+  "fields": [
+    {
+      "component": "custom-asset-namespace:custom-asset",
+      "name": "lightbox_image",
+      "label": "Image",
+      "valueType": "string",
+      "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
+      "assetType": "image",
+      "required": true
+    },
+    {
+      "component": "text",
+      "name": "lightbox_image_alt",
+      "label": "Alt text",
+      "valueType": "string"
+    }
+  ]
+},
+  {
     "id": "image",
     "fields": [
       {
