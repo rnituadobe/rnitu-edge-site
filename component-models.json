@@ -235,9 +235,6 @@
       }
     ]
   },
-
-  /* --- added for SAP-style universal layout --- */
-
   {
     "id": "universal-layout",
     "fields": [
