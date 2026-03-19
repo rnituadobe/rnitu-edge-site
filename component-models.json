@@ -235,6 +235,7 @@
       }
     ]
   },
+
   {
     "id": "universal-layout",
     "fields": [
@@ -247,12 +248,6 @@
       },
       {
         "component": "text",
-        "name": "imageMimeType",
-        "label": "Image MIME Type",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
         "name": "imageAlt",
         "label": "Image Alt",
         "valueType": "string"
@@ -261,12 +256,6 @@
         "component": "text",
         "name": "styleSelectImageType",
         "label": "Image Type",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "styleSelectImageSize",
-        "label": "Image Size",
         "valueType": "string"
       },
       {
@@ -289,43 +278,8 @@
       },
       {
         "component": "text",
-        "name": "media_imageMimeType",
-        "label": "Media Image MIME Type",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
         "name": "media_imageAlt",
         "label": "Media Image Alt",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "media_iconBackgroundColour",
-        "label": "Icon Background Colour",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "dgl1_linkType1",
-        "label": "Primary Link Type",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "media_video",
-        "label": "Media Video",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "dgl1_dglVideoLink",
-        "label": "Video Link"
-      },
-      {
-        "component": "text",
-        "name": "card_eyebrow",
-        "label": "Eyebrow",
         "valueType": "string"
       },
       {
@@ -335,111 +289,9 @@
         "valueType": "string"
       },
       {
-        "component": "select",
-        "name": "card_titleType",
-        "label": "Title Type",
-        "options": [
-          { "name": "h2", "value": "h2" },
-          { "name": "h3", "value": "h3" },
-          { "name": "h4", "value": "h4" }
-        ]
-      },
-      {
         "component": "richtext",
         "name": "card_text",
         "label": "Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "dgl2_linkType2",
-        "label": "Secondary Link Type",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "card_link",
-        "label": "Primary Link"
-      },
-      {
-        "component": "text",
-        "name": "card_linkText",
-        "label": "Primary Link Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "card_linkTitle",
-        "label": "Primary Link Title",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "card_linkType",
-        "label": "Primary Link Type",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "dgl2_cta1",
-        "label": "CTA 1 Link"
-      },
-      {
-        "component": "text",
-        "name": "dgl2_ctaText1",
-        "label": "CTA 1 Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "dgl2_ctaType1",
-        "label": "CTA 1 Type",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "dgl3_linkType3",
-        "label": "Tertiary Link Type",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "card_link2",
-        "label": "Secondary Link"
-      },
-      {
-        "component": "text",
-        "name": "card_link2Text",
-        "label": "Secondary Link Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "card_link2Title",
-        "label": "Secondary Link Title",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "card_link2Type",
-        "label": "Secondary Link Type",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "dgl3_cta2",
-        "label": "CTA 2 Link"
-      },
-      {
-        "component": "text",
-        "name": "dgl3_ctaText2",
-        "label": "CTA 2 Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "dgl3_ctaType2",
-        "label": "CTA 2 Type",
         "valueType": "string"
       }
     ]
