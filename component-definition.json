@@ -47,6 +47,21 @@
   }
 },
         {
+  "title": "Universal Layout AssetPicker",
+  "id": "universal-layout-assetpicker",
+  "plugins": {
+    "xwalk": {
+      "page": {
+        "resourceType": "core/franklin/components/block/v1/block",
+        "template": {
+          "name": "Universal Layout AssetPicker",
+          "model": "universal-layout-assetpicker"
+        }
+      }
+    }
+  }
+},
+        {
           "title": "Title",
           "id": "title",
           "plugins": {
