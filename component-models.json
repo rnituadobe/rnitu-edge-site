@@ -254,14 +254,14 @@
       },
       {
         "component": "text",
-        "name": "styleSelectImageType",
-        "label": "Image Type",
+        "name": "layoutTitle",
+        "label": "Layout Title",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "classes",
-        "label": "CSS Classes",
+        "name": "layoutDescription",
+        "label": "Layout Description",
         "valueType": "string"
       }
     ]
@@ -271,27 +271,27 @@
     "fields": [
       {
         "component": "reference",
-        "name": "media_image",
-        "label": "Media Image",
+        "name": "itemImage",
+        "label": "Item Image",
         "valueType": "string",
         "multi": false
       },
       {
         "component": "text",
-        "name": "media_imageAlt",
-        "label": "Media Image Alt",
+        "name": "itemImageAlt",
+        "label": "Item Image Alt",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "card_title",
-        "label": "Title",
+        "name": "itemTitle",
+        "label": "Item Title",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "card_text",
-        "label": "Text",
+        "name": "itemText",
+        "label": "Item Text",
         "valueType": "string"
       }
     ]
