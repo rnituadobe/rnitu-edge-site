@@ -254,7 +254,7 @@
       },
       {
         "component": "text",
-        "name": "layoutTitle",
+        "name": "layoutvar1",
         "label": "Layout Title",
         "valueType": "string"
       },
@@ -284,13 +284,13 @@
       },
       {
         "component": "text",
-        "name": "itemTitle",
+        "name": "itemvar1",
         "label": "Item Title",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "itemText",
+        "name": "itemvar2",
         "label": "Item Text",
         "valueType": "string"
       }
