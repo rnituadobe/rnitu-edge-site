@@ -295,5 +295,69 @@
         "valueType": "string"
       }
     ]
+  },
+   {
+    "id": "universal-layout-assetpicker",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string",
+        "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
+        "assetType": "image",
+        "required": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "layoutHeading",
+        "label": "Layout Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "layoutDescription",
+        "label": "Layout Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "universal-layout-item-assetpicker",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "itemImage",
+        "label": "Item Image",
+        "valueType": "string",
+        "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
+        "assetType": "image",
+        "required": false
+      },
+      {
+        "component": "text",
+        "name": "itemImageAlt",
+        "label": "Item Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "itemHeading",
+        "label": "Item Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "itemBody",
+        "label": "Item Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
