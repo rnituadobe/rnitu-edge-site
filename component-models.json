@@ -354,10 +354,12 @@
         "required": false
       },
       {
-        "component": "text",
-        "name": "itemImageAlt",
-        "label": "Item Image Alt",
-        "valueType": "string"
+        "component": "aem-tag",
+        "name": "itemTags",
+        "label": "Item Tags",
+        "valueType": "string",
+        "rootPath": "/content/cq:tags",
+        "description": "Select tags for this item"
       },
       {
         "component": "text",
