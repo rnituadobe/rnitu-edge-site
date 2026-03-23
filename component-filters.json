@@ -18,7 +18,8 @@
       "test-asset-block",
       "universal-layout",
       "universal-layout-assetpicker",
-      "fragment"
+      "fragment",
+      "tag-test"
     ]
   },
   {
