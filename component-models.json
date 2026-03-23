@@ -296,6 +296,19 @@
       }
     ]
   },
+  {
+  "id": "tag-test",
+  "fields": [
+    {
+      "component": "aem-tag",
+      "name": "cq:tags",
+      "label": "Tags",
+      "valueType": "string",
+      "rootPath": "/content/cq:tags",
+      "description": "Select one or more tags"
+    }
+  ]
+},
    {
     "id": "universal-layout-assetpicker",
     "fields": [
