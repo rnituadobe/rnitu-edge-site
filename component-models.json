@@ -333,11 +333,13 @@
         "label": "Layout Title",
         "valueType": "string"
       },
-      {
-        "component": "text",
-        "name": "layoutDescription",
-        "label": "Layout Description",
-        "valueType": "string"
+     {
+        "component": "aem-tag",
+        "name": "itemTags",
+        "label": "Item Tags",
+        "valueType": "string",
+        "rootPath": "/content/cq:tags",
+        "description": "Select tags for this item"
       }
     ]
   },
