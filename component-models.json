@@ -24,11 +24,11 @@
     ]
   },
   {
-    "id": "test-asset-block",
+    "id": "lightbox",
     "fields": [
       {
         "component": "custom-asset-namespace:custom-asset",
-        "name": "lightbox",
+        "name": "lightbox_image",
         "label": "Image",
         "valueType": "string",
         "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
@@ -37,7 +37,27 @@
       },
       {
         "component": "text",
-        "name": "lightbox_image",
+        "name": "lightbox_imageAlt",
+        "label": "Alt text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "test-asset-block",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "testAssetImage",
+        "label": "Image",
+        "valueType": "string",
+        "configUrl": "/content/dam/configs/dynamic-media-asset-picker.json",
+        "assetType": "image",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "testAssetImageAlt",
         "label": "Alt text",
         "valueType": "string"
       }
@@ -235,7 +255,6 @@
       }
     ]
   },
-
   {
     "id": "universal-layout",
     "fields": [
@@ -297,19 +316,19 @@
     ]
   },
   {
-  "id": "tag-test",
-  "fields": [
-    {
-      "component": "aem-tag",
-      "name": "cq:tags",
-      "label": "Tags",
-      "valueType": "string",
-      "rootPath": "/content/cq:tags",
-      "description": "Select one or more tags"
-    }
-  ]
-},
-   {
+    "id": "tag-test",
+    "fields": [
+      {
+        "component": "aem-tag",
+        "name": "cq:tags",
+        "label": "Tags",
+        "valueType": "string",
+        "rootPath": "/content/cq:tags",
+        "description": "Select one or more tags"
+      }
+    ]
+  },
+  {
     "id": "universal-layout-assetpicker",
     "fields": [
       {
@@ -333,7 +352,7 @@
         "label": "Layout Title",
         "valueType": "string"
       },
-     {
+      {
         "component": "aem-tag",
         "name": "itemTags",
         "label": "Item Tags",
