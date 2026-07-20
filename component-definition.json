@@ -1,233 +1,231 @@
-{
-  "groups": [
-    {
-      "title": "Default Content",
-      "id": "default",
-      "components": [
-        {
-          "title": "Text",
-          "id": "text",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/text/v1/text",
-                "template": {}
-              }
+[
+  {
+    "title": "Default Content",
+    "id": "default",
+    "components": [
+      {
+        "title": "Text",
+        "id": "text",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/text/v1/text",
+              "template": {}
             }
           }
-        },
-        {
-          "title": "Lightbox",
-          "id": "lightbox",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Lightbox",
-                  "model": "lightbox"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Test Asset Block",
-          "id": "test-asset-block",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Test Asset Block",
-                  "model": "test-asset-block"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Tag Test",
-          "id": "tag-test",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Tag Test",
-                  "model": "tag-test"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Universal Layout",
-          "id": "universal-layout",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Universal Layout",
-                  "model": "universal-layout"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Universal Layout AssetPicker",
-          "id": "universal-layout-assetpicker",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Universal Layout AssetPicker",
-                  "model": "universal-layout-assetpicker"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Title",
-          "id": "title",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/title/v1/title",
-                "template": {
-                  "model": "title"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Image",
-          "id": "image",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/image/v1/image",
-                "template": {}
-              }
-            }
-          }
-        },
-        {
-          "title": "Button",
-          "id": "button",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/button/v1/button",
-                "template": {
-                  "model": "button"
-                }
+        }
+      },
+      {
+        "title": "Lightbox",
+        "id": "lightbox",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Lightbox",
+                "model": "lightbox"
               }
             }
           }
         }
-      ]
-    },
-    {
-      "title": "Page Structure",
-      "id": "structure",
-      "components": [
-        {
-          "title": "Section",
-          "id": "section",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/section/v1/section",
-                "template": {
-                  "model": "section"
-                }
+      },
+      {
+        "title": "Test Asset Block",
+        "id": "test-asset-block",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Test Asset Block",
+                "model": "test-asset-block"
               }
             }
           }
         }
-      ]
-    },
-    {
-      "title": "Advanced Content",
-      "id": "advanced",
-      "components": [
-        {
-          "title": "Cards",
-          "id": "cards",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "model": "cards"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Card",
-          "id": "card",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "model": "card"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Columns",
-          "id": "columns",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "model": "columns"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Fragment",
-          "id": "fragment",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/fragment/v1/fragment",
-                "template": {
-                  "model": "fragment"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Hero",
-          "id": "hero",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "model": "hero"
-                }
+      },
+      {
+        "title": "Tag Test",
+        "id": "tag-test",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Tag Test",
+                "model": "tag-test"
               }
             }
           }
         }
-      ]
-    }
-  ]
-}
+      },
+      {
+        "title": "Universal Layout",
+        "id": "universal-layout",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Universal Layout",
+                "model": "universal-layout"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Universal Layout AssetPicker",
+        "id": "universal-layout-assetpicker",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Universal Layout AssetPicker",
+                "model": "universal-layout-assetpicker"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Title",
+        "id": "title",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/title/v1/title",
+              "template": {
+                "model": "title"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Image",
+        "id": "image",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/image/v1/image",
+              "template": {}
+            }
+          }
+        }
+      },
+      {
+        "title": "Button",
+        "id": "button",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/button/v1/button",
+              "template": {
+                "model": "button"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Page Structure",
+    "id": "structure",
+    "components": [
+      {
+        "title": "Section",
+        "id": "section",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/section/v1/section",
+              "template": {
+                "model": "section"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Advanced Content",
+    "id": "advanced",
+    "components": [
+      {
+        "title": "Cards",
+        "id": "cards",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "model": "cards"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Card",
+        "id": "card",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "model": "card"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Columns",
+        "id": "columns",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "model": "columns"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Fragment",
+        "id": "fragment",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/fragment/v1/fragment",
+              "template": {
+                "model": "fragment"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Hero",
+        "id": "hero",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "model": "hero"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]
